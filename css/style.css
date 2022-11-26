@@ -1,0 +1,160 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-image: url(../img/background.png);
+    background-size: cover;
+}
+
+/*---------------------HeaderIndex---------------------*/
+
+
+.topheader{ 
+    box-shadow: 0 4px 5px #43291F;
+    background-color:rgb(198, 193, 193);
+    /* position: fixed; */
+    width: 100%;
+    
+}
+
+.topnav{
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/*menu de navegación*/
+.menu{
+    display: flex; 
+}
+
+.menu li {
+    padding: 1.5rem;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    justify-content: space-around;
+    
+    
+}
+
+
+/*--------------Main----*/
+.texto{
+    margin-top: 15rem;
+    padding: 15rem;
+    text-align: center;
+}
+
+.destacados{
+    font-size:1.5rem;
+    color:darkolivegreen;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    margin: auto;
+
+}
+
+
+.imagenesdestacadas{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: 15px;
+    border-image-width: 1rem;
+}
+
+
+
+.clientes{
+    text-align:center;
+    margin-top: 30px;
+}
+/*--------COMPRAR-------*/
+
+.titulosgrandes{
+font-size: 3rem;
+text-align: center;
+padding: 1.5rem;
+text-transform: uppercase;
+
+}
+ 
+.filtros{
+    padding: 1.5rem;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+#marca-usuario{
+    font-size: 1.2rem; 
+}
+#modelo-usuario{
+    font-size: 1.2rem;  
+}
+
+#año-usuario{
+    font-size: 1.2rem;  
+}
+
+button{
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.titulosh3{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.comprar{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+}
+
+
+/*Body*/
+
+
