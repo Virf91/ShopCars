@@ -9,11 +9,21 @@
 
 }
 
-ul,
-ol {
+ul{
     list-style: none;
 }
-
+h1{
+    font-size: 3.5em;
+}
+h2{
+    font-size: 2.7em;
+}
+h4{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1.5em;
+}
 a {
     text-decoration: none;
     color: black;
@@ -22,32 +32,47 @@ body{
     background-image: url(../img/cover.jpg);
     background-size: cover;
 }
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
 
+}
+button:hover{
+    background-color: aqua;
+}
 /*---------------------HeaderIndex---------------------*/
+.contenedor{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 
-
-.topheader{ 
-    box-shadow: 0 4px 5px #43291F;
-    background-color:rgb(198, 193, 193);
-    /* position: fixed; */
-    width: 100%;
-    height: 250px;
-    position:sticky;
-    
 }
 
+header{
+    background-color:aqua;
+
+}
+
+header 
 .topnav{
     display: flex;
     max-width: 980px;
     margin: 0 auto;   
 }
 
-.logo{
+header .logo{
     width: 170px;
     height: 170px;
     margin-top: 40px;
     border-radius: 50%;
 }
+
 
 /*menu de navegación*/
 .menu{
@@ -103,20 +128,15 @@ img{
 
 
 
-.clientes{
-    text-align:center;
-    margin-top: 30px;
-}
+
 /*--------COMPRAR-------*/
 
-.titulosgrandes{
+/* .titulosgrandes{
 font-size: 3rem;
 text-align: center;
 padding: 1.5rem;
-text-transform: uppercase;
+text-transform: uppercase; */
 
-}
- 
 .filtros{
     padding: 1.5rem;
     font-size: 25px;
@@ -135,14 +155,14 @@ text-transform: uppercase;
     font-size: 1.2rem;  
 }
 
-button{
+/* button{
     height: 2rem;
     width: 5rem;
     border-radius: 0.5rem;
     margin-top: 1.5rem;
     margin-left: 3rem;
-    font-size: 1.3rem;
-}
+    font-size: 1.3rem; */
+
 
 .titulosh3{
     text-align: center;
