@@ -1,38 +1,43 @@
-
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 
-
 }
 
-ul{
+ul {
     list-style: none;
 }
-h1{
+
+h1 {
     font-size: 3.5em;
+    padding: 1.5em;
 }
-h2{
+
+h2 {
     font-size: 2.7em;
 }
-h4{
+
+h4 {
     font-size: 1.5em;
 }
-p{
+
+p {
     font-size: 1.5em;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
-body{
+
+body {
     background-image: url(../img/cover.jpg);
     background-size: cover;
 }
-button{
+
+button {
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 30px;
@@ -41,66 +46,84 @@ button{
     box-shadow: 2px 2px 10px black;
 
 }
-button:hover{
-    background-color: aqua;
+
+button:hover {
+    background-color:aqua;
 }
+
 /*---------------------HeaderIndex---------------------*/
-.contenedor{
+.contenedor {
     max-width: 1400px;
     margin: auto;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
 
 }
 
-header{
-    background-color:aqua;
+header {
+    background-color: beige;
 
 }
 
-header 
-.topnav{
+header .topnav {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
     max-width: 980px;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
-header .logo{
+header .logo {
     width: 170px;
     height: 170px;
-    margin-top: 40px;
+    padding: 25px 30px;
     border-radius: 50%;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image:
+    url(../img/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 
 /*menu de navegación*/
-.menu{
-    display: flex; 
+.menu {
+    display: flex;
 }
 
 .menu li {
     padding: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    font-weight: bold;
     text-transform: uppercase;
     margin-top: 3rem;
     justify-content: space-around;
-    
-    
+
+
 }
 
 
 /*--------------Main----*/
-.texto{
+.texto {
     margin-top: 15rem;
     padding: 15rem;
     text-align: center;
 }
 
-.destacados{
-    font-size:1.5rem;
-    color:darkolivegreen;
+.destacados {
+    font-size: 1.5rem;
+    color: darkolivegreen;
     text-align: center;
     padding-bottom: 30px;
     padding-top: 50px;
@@ -109,16 +132,16 @@ header .logo{
 }
 
 
-.imagenesdestacadas{
-    width:100%;
-    display:flex;
+.imagenesdestacadas {
+    width: 100%;
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: auto;
     max-width: 1000px;
 }
 
-img{
+img {
     width: 400px;
     height: 400px;
     object-fit: cover;
@@ -137,22 +160,24 @@ text-align: center;
 padding: 1.5rem;
 text-transform: uppercase; */
 
-.filtros{
+.filtros {
     padding: 1.5rem;
     font-size: 25px;
-    display:block;
+    display: block;
     justify-content: space-around;
     text-transform: uppercase;
 }
-#marca-usuario{
-    font-size: 1.2rem; 
-}
-#modelo-usuario{
-    font-size: 1.2rem;  
+
+#marca-usuario {
+    font-size: 1.2rem;
 }
 
-#año-usuario{
-    font-size: 1.2rem;  
+#modelo-usuario {
+    font-size: 1.2rem;
+}
+
+#año-usuario {
+    font-size: 1.2rem;
 }
 
 /* button{
@@ -164,15 +189,15 @@ text-transform: uppercase; */
     font-size: 1.3rem; */
 
 
-.titulosh3{
+.titulosh3 {
     text-align: center;
     font-size: 1.5rem;
     padding: 2rem;
 }
 
-.comprar{
-    width:100%;
-    display:flex;
+.comprar {
+    width: 100%;
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: auto;
@@ -181,5 +206,3 @@ text-transform: uppercase; */
 
 
 /*Body*/
-
-
