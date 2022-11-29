@@ -1,6 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+.container {
+    padding: 50px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+
+}
+.container li{
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    
+}
+.listado{
+    color:rgb(66, 58, 58);
+    
+}
+
+.auto{
+    opacity: 10;
+
 }
