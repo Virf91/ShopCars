@@ -54,11 +54,26 @@
     <div>
         <h2 class="text-center">Envianos tu consulta</h2>
 
-        <form action="">
-            <input type="text">
-            <input type="text">
-            <input type="submit" class="btn btn-primary btn-lg" value="Enviar">
+        <form action="" class="row">
+            
+            <div class=" d-flex p-5 align-content-between">
+                <label class="textarea" for="mensaje-usuario">Ingrese su mensaje:</label>
+                <textarea name="" id="mensaje-usuario" cols="30" rows="10"></textarea>
+            </div>
 
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="nombre-usuario" placeholder="Juan Perez">
+            </div>
+
+            <div class="mb-3 ">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="nombre-usuario" placeholder="juan@gmail.com">
+            </div>
+
+            <div class="d-flex justify-content-center my-5">
+                <button class="btn btn-primary" type="submit">Enviar Consulta</button>
+            </div>
         </form>
     </div>
 
