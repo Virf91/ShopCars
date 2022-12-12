@@ -1,25 +1,67 @@
+/*---------------Index---------------*/
 .container {
     padding: 50px;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
 
 }
-.container li{
+
+.container li {
     text-transform: uppercase;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 40px;
-    
-}
-.listado{
-    color:rgb(66, 58, 58);
-    
+
 }
 
-.auto{
+.listado {
+    color: rgb(66, 58, 58);
+
+}
+
+.auto {
     opacity: 10;
 
 }
 
+.button-index{
+    background-color: #dddfe1;
+    color: black;
+    border-radius:solid 2px;
+    border-style: outset;
+    border-color: #dddfe1;
+
+
+}
+.destacados{
+    width: 50%;
+    height: 50%;
+}
+.destacados img{
+ width: 20vh;
+
+}
+
+/*--------------Comprar----------*/
+h2 {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.filtros {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.button {
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #dddfe1;
+    color: black;
+    border-radius:solid 2px;
+    border-style: outset;
+    border-color: #dddfe1;
+
+
+}
