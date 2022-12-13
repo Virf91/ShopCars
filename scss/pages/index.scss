@@ -1,0 +1,47 @@
+/*-------Index------*/
+
+.container{
+    padding: 50px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    li {
+        text-transform: uppercase;
+    }
+
+    .navbar-brand {
+        font-size: 40px;
+    
+    }
+    a{
+        color: rgb(66, 58, 58);
+    }
+}
+
+.portada-container{
+
+img{
+    opacity: 10;
+}
+
+a{
+    background-color: #dddfe1;
+    color: black;
+    border-radius:solid 2px;
+    border-style: outset;
+    border-color: #dddfe1;
+}
+}
+
+.carrusel{
+    .destacados{
+        width:100vh;
+        padding: 50px;
+          
+       }
+
+
+img{
+    width: 100vh; 
+}      
+}
