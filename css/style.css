@@ -35,11 +35,12 @@
 
 }
 .destacados{
-    width: 50%;
-    height: 50%;
+ width:100vh;
+ padding: 50px;
+   
 }
 .destacados img{
- width: 20vh;
+width: 100vh;
 
 }
 
@@ -47,14 +48,22 @@
 h2 {
     padding: 5px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .filtros {
     font-size: 20px;
     padding: 10px;
 }
+.filtros select{
+margin-left: 10px;
+border-color:darkgray;
+border-style: dotted;
+border-radius: 10%;
 
+}
 .button {
+    width: 80px;
     padding: 5px;
     margin-left: 10px;
     background-color: #dddfe1;
@@ -64,4 +73,32 @@ h2 {
     border-color: #dddfe1;
 
 
+}
+
+/*--------------------------Vender-------------------*/
+
+.button-vender{
+    background-color: #dddfe1;
+    color: black;
+    border-radius:solid 2px;
+    border-style: outset;
+    border-color: #dddfe1; 
+}
+
+/*-------------------Resgistro------------*/
+
+.button-registro{
+    background-color: #dddfe1;
+    color: black;
+    border-radius:solid 2px;
+    border-style: outset;
+    border-color: #dddfe1;  
+}
+/*------------------Contacto--------------------*/
+.button-contacto{
+    background-color: #dddfe1;
+    color: black;
+    border-radius:solid 2px;
+    border-style: outset;
+    border-color: #dddfe1;  
 }
