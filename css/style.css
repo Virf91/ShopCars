@@ -1,8 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 /*---------------Index---------------*/
 .container {
-    padding: 50px;
+    padding: 10px;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 
 }
 
